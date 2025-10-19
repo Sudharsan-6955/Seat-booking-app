@@ -12,16 +12,9 @@ export default function Header() {
 
         {/* small controls: badge on larger screens, compact button on mobile */}
         <div className="flex items-center gap-3">
-          <div className="hidden sm:inline-flex items-center bg-gray-700 px-3 py-1 rounded text-sm">Sri Shanmuga A/C</div>
+          <div className=" sm:inline-flex items-center bg-gray-700 px-3 py-1 rounded text-sm">Sri Shanmuga A/C</div>
 
-          {/* mobile-only button for quick actions (no JS behaviour here) */}
-          <button
-            type="button"
-            className="inline-flex sm:hidden items-center px-3 py-1 bg-indigo-600 hover:bg-indigo-500 rounded text-sm"
-            aria-label="open actions"
-          >
-            Menu
-          </button>
+         
         </div>
       </div>
     </header>
